@@ -6,6 +6,9 @@ import uvicorn
 from rembg import remove
 import os
 
+# Set custom home for rembg models (required for Vercel/Serverless)
+os.environ["U2NET_HOME"] = "/tmp"
+
 app = FastAPI()
 
 # Enable CORS
