@@ -1,0 +1,16 @@
+bg/
+.venv/
+venv/
+ENV/
+__pycache__/
+*.jpg
+*.png
+*.webp
+node_modules/
+.git/
+.gitignore
+test_api.py
+remove.py
+insrction.md
+README.md
+no_background*.png

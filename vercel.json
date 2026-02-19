@@ -12,6 +12,10 @@
             "dest": "backend/main.py"
         },
         {
+            "src": "/static/(.*)",
+            "dest": "/static/$1"
+        },
+        {
             "src": "/(.*)",
             "dest": "backend/main.py"
         }
